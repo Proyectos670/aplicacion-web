@@ -359,3 +359,4 @@ function clearTableData() {
 loadData();
 
 
+localStorage.clear();
