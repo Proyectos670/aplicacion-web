@@ -365,5 +365,5 @@ function clearTableData() {
 // Cargar datos al inicio
 loadData();
 
-
+localStorage.clear();
 
