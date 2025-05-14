@@ -37,11 +37,11 @@ function closePasswordModal() {
 }
 
 // Formatos y encabezados de tablas
-const formatStates = { '00': {}, '01': {},  '25': {}  };
+const formatStates = { '00': {}, '01': {},  '24': {},  '25': {}   };
 const tableHeaders = {
   '00': ['Fecha', 'Combured Lect (lts)', 'Combuered Cons (lts)', 'Observaciones'],
   '01': ['Fecha', 'Ciamsa Lect (lts)', 'Ciamsa Cons (lts)', 'Observaciones'],
- 
+  '24': ['Fecha', 'Clip.A Lect', 'Clip.A Cons(Kwh/dia)', 'OFCB Lect', 'OFCB Cons(Kwh/dia)', 'SXAW Lect', 'SXAW Cons(Kwh/dia)', 'SLI Lect', 'SLI Cons(Kwh/dia)', 'Clip.P Lect', 'Clip.P Cons(Kwh/dia)', 'PTAP Lect', 'PTAP Cons(Kwh/h)', 'Total (kwh/dia)', 'Observaciones'],
   '25': ['Fecha', 'Clip.A Lect', 'Clip.A Cons(Kwh/dia)', 'OFCB Lect', 'OFCB Cons(Kwh/dia)', 'SXAW Lect', 'SXAW Cons(Kwh/dia)', 'SLI Lect', 'SLI Cons(Kwh/dia)', 'Clip.P Lect', 'Clip.P Cons(Kwh/dia)', 'PTAP Lect', 'PTAP Cons(Kwh/h)', 'Total (kwh/dia)', 'Observaciones']
 };
 
