@@ -41,7 +41,7 @@ const formatStates = { '00': {}, '01': {},  '16': {},  '17': {} ,  '18': {} ,  '
 const tableHeaders = {
   '00': ['Fecha', 'Combured Lect (lts)', 'Combuered Cons (lts)', 'Observaciones'],
   '01': ['Fecha', 'Ciamsa Lect (lts)', 'Ciamsa Cons (lts)', 'Observaciones'],
-  '16': ['Fecha', 'Clip.A Lect', 'Clip.A Cons(Kwh/dia)', 'OFCB Lect', 'OFCB Cons(Kwh/dia)', 'SXAW Lect', 'SXAW Cons(Kwh/dia)', 'SLI Lect', 'SLI Cons(Kwh/dia)', 'Clip.P Lect', 'Clip.P Cons(Kwh/dia)', 'PTAP Lect', 'PTAP Cons(Kwh/h)', 'Total (kwh/dia)', 'Observaciones'],
+  '16': ['Fecha', 'Clip.A Lect (lts)', 'Clip.A Cons (lts)', 'Clip.P Lect (lts)', 'Clip.P Cons (lts)', 'SLI Lect (lts)', 'SLI Cons (lts)', 'SXAW Lect (lts)', 'SXAW Cons (lts)', 'MAZDA Lect (lts)', 'MAZDA Cons (lts)', 'OFCB Lect (lts)', ' OFCB Cons (lts)', 'BODB Lect (lts)', 'BODB Cons (lts)', 'Total (m3)', 'Observaciones'],
   '17': ['Fecha', 'Clip.A Lect', 'Clip.A Cons(Kwh/dia)', 'OFCB Lect', 'OFCB Cons(Kwh/dia)', 'SXAW Lect', 'SXAW Cons(Kwh/dia)', 'SLI Lect', 'SLI Cons(Kwh/dia)', 'Clip.P Lect', 'Clip.P Cons(Kwh/dia)', 'PTAP Lect', 'PTAP Cons(Kwh/h)', 'Total (kwh/dia)', 'Observaciones'],
   '18': ['Fecha', 'Clip.A Lect', 'Clip.A Cons(Kwh/dia)', 'OFCB Lect', 'OFCB Cons(Kwh/dia)', 'SXAW Lect', 'SXAW Cons(Kwh/dia)', 'SLI Lect', 'SLI Cons(Kwh/dia)', 'Clip.P Lect', 'Clip.P Cons(Kwh/dia)', 'PTAP Lect', 'PTAP Cons(Kwh/h)', 'Total (kwh/dia)', 'Observaciones'],
   '19': ['Fecha', 'Clip.A Lect', 'Clip.A Cons(Kwh/dia)', 'OFCB Lect', 'OFCB Cons(Kwh/dia)', 'SXAW Lect', 'SXAW Cons(Kwh/dia)', 'SLI Lect', 'SLI Cons(Kwh/dia)', 'Clip.P Lect', 'Clip.P Cons(Kwh/dia)', 'PTAP Lect', 'PTAP Cons(Kwh/h)', 'Total (kwh/dia)', 'Observaciones'],
