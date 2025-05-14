@@ -50,8 +50,7 @@ const tableHeaders = {
         'Cloro Libre (mg/Cl) Tanque-40M3', 'VMP (0.3 a 2.2 mg/l) Tanque-40M3', 
         'Observaciones'],
   '18': ['Fecha', 'Hora', 'Lect Horómetro', 'Restante Día Hrmtro', 'Lect Medidor (m³)', 'Restante Día Medidor (m³)', 'Observaciones'],
-  '18': ['Fecha', 'Clip.A Lect', 'Clip.A Cons(Kwh/dia)', 'OFCB Lect', 'OFCB Cons(Kwh/dia)', 'SXAW Lect', 'SXAW Cons(Kwh/dia)', 'SLI Lect', 'SLI Cons(Kwh/dia)', 'Clip.P Lect', 'Clip.P Cons(Kwh/dia)', 'PTAP Lect', 'PTAP Cons(Kwh/h)', 'Total (kwh/dia)', 'Observaciones'],
-  '19': ['Fecha', 'Clip.A Lect', 'Clip.A Cons(Kwh/dia)', 'OFCB Lect', 'OFCB Cons(Kwh/dia)', 'SXAW Lect', 'SXAW Cons(Kwh/dia)', 'SLI Lect', 'SLI Cons(Kwh/dia)', 'Clip.P Lect', 'Clip.P Cons(Kwh/dia)', 'PTAP Lect', 'PTAP Cons(Kwh/h)', 'Total (kwh/dia)', 'Observaciones'],
+  '19': ['Hora', 'Fecha', 'Día', 'Cons(m³) Día Tanque', 'Hora', 'Lect Macro Medidor', 'Cons(m³) Día', 'Observaciones'],
   '24': ['Fecha', 'Suscriptores', 'Turbiedad≤2NTU', 'Fosfatos≤0,5(mg/l)', 'Cloro 0,3-2(mg/l)', 'Color 15UPC', 'PH vmp 6,5-9', 'Observaciones'],
   '25': ['Fecha', 'Clip.A Lect', 'Clip.A Cons(Kwh/dia)', 'OFCB Lect', 'OFCB Cons(Kwh/dia)', 'SXAW Lect', 'SXAW Cons(Kwh/dia)', 'SLI Lect', 'SLI Cons(Kwh/dia)', 'Clip.P Lect', 'Clip.P Cons(Kwh/dia)', 'PTAP Lect', 'PTAP Cons(Kwh/h)', 'Total (kwh/dia)', 'Observaciones']
 };
