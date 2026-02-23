@@ -360,9 +360,10 @@ function clearTableData() {
   // Guardar el estado actualizado en localStorage
   saveData();
 }
-localStorage.clear();
+
 // Cargar datos al inicio
 loadData();
+
 
 
 
