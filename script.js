@@ -37,9 +37,9 @@ function closePasswordModal() {
 }
 
 // Formatos y encabezados de tablas
-const formatStates = { '00': {}, '01': {},  '16': {},  '17': {} ,  '18': {} ,  '19': {} ,  '24': {},  '25': {}    };
+const formatStates = { '01': {},  '16': {},  '17': {} ,  '18': {} ,  '19': {} ,  '24': {},  '25': {}    };
 const tableHeaders = {
-  '00': ['Fecha', 'Combured Lect (lts)', 'Combuered Cons (lts)', 'Observaciones'],
+  
   '01': ['Fecha', 'Ciamsa Lect (lts)', 'Ciamsa Cons (lts)', 'Observaciones'],
   '16': ['Fecha', 'Clip.A Lect (lts)', 'Clip.A Cons (lts)', 'Clip.P Lect (lts)', 'Clip.P Cons (lts)', 'SLI Lect (lts)', 'SLI Cons (lts)', 'SXAW Lect (lts)', 'SXAW Cons (lts)', 'MAZDA Lect (lts)', 'MAZDA Cons (lts)', 'OFCB Lect (lts)', ' OFCB Cons (lts)', 'BODB Lect (lts)', 'BODB Cons (lts)', 'Total (m3)', 'Observaciones'],
   '17': ['Fecha','Hora',
@@ -360,9 +360,10 @@ function clearTableData() {
   // Guardar el estado actualizado en localStorage
   saveData();
 }
-
+localStorage.clear();
 // Cargar datos al inicio
 loadData();
+
 
 
 
